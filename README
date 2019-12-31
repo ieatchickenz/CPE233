@@ -1,0 +1,3 @@
+This project is a 32-bit CPU called the OTTER.
+It runs RISC-V commands and potentially c-code.
+Interupts are handled.
