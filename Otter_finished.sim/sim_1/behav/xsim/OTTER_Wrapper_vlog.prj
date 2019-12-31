@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/ALU.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/SevSeg/BCD.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/BranchCondGen.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/CUDecoder.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/CU_FSM.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/SevSeg/CathodeDriver.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/lab4 files/KeyboardDriver.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/Lab/MUX_21/MUX_21.srcs/sources_1/new/MUX_21.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/Lab/233_Mux4-1/233_Mux4-1.srcs/sources_1/new/Mux4-1.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/OTTER_MCU.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/PC.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/new/RegFile.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/lab4 files/SevSegDisp.sv" \
+"../../../../Otter_finished.srcs/sources_1/new/clkDiv1.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/lab4 files/debounce_one_shot.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/sources_1/imports/CPE_233/otter_memory.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/lab4 files/ram2k_8.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/lab4 files/vga_driver.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/lab4 files/vga_fb_driver.sv" \
+"../../../../Otter_finished.srcs/sources_1/imports/Downloads/OTTER_Wrapper.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
