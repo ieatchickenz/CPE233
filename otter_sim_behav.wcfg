@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1138249283184fs"></ZoomStartTime>
+      <ZoomEndTime time="3976526143364fs"></ZoomEndTime>
+      <Cursor1Time time="2809080000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/testbench/DUT/MCU/programmer/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/programmer/ram_data" type="array">
+      <obj_property name="ElementShortName">ram_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/programmer/mcu_reset" type="logic">
+      <obj_property name="ElementShortName">mcu_reset</obj_property>
+      <obj_property name="ObjectShortName">mcu_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/programmer/ram_we" type="logic">
+      <obj_property name="ElementShortName">ram_we</obj_property>
+      <obj_property name="ObjectShortName">ram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/PC/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/MEM_ADDR2" type="array">
+      <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/MEM_DIN2" type="array">
+      <obj_property name="ElementShortName">MEM_DIN2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_DIN2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/MEM_WRITE2" type="logic">
+      <obj_property name="ElementShortName">MEM_WRITE2</obj_property>
+      <obj_property name="ObjectShortName">MEM_WRITE2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/MEM_SIZE" type="array">
+      <obj_property name="ElementShortName">MEM_SIZE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_SIZE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/MEM_SIGN" type="logic">
+      <obj_property name="ElementShortName">MEM_SIGN</obj_property>
+      <obj_property name="ObjectShortName">MEM_SIGN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/memory[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/memory[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/memory[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/memory[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/memory[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUT/MCU/mem/memory[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+</wave_config>
